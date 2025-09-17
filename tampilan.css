@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #8981f5;
+}
+
+.cv-container {
+  width: 800px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border: 2px solid #000;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
+  padding-bottom: 3px;
+  color: #000;
+}
+
+.section p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.section span {
+  font-weight: bold;
+}
+
+/* Data pribadi layout */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content .left {
+  width: 65%;
+}
+
+.content .right img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #000;
+}
